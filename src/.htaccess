@@ -1,2 +1,9 @@
-RewriteEngine on
-RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9]*)?/?$ index.php?controleur=$1&action=$2&id=$3 [NC,L]
+RewriteEngine On
+
+# Laisser passer les fichiers et dossiers existants (CSS, images, etc.)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Sinon, tout rediriger vers index.php
+RewriteRule ^ index.php [L]

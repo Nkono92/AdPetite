@@ -5,7 +5,7 @@ require_once 'Configuration.php';
 /**
  * Classe modélisant une vue.
  *
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Vue
 {

@@ -6,7 +6,7 @@ require_once 'Modele/Client.php';
 /**
  * Contrôleur gérant la connexion au site
  *
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class ControleurConnexion extends Controleur
 {

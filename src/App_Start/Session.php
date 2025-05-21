@@ -7,7 +7,7 @@ require_once 'Modeles/Utilisateur.php';
  * Classe modélisant la session.
  * Encapsule la superglobale PHP $_SESSION.
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Session
 {

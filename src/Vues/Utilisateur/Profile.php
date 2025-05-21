@@ -1,4 +1,4 @@
-<?php $this->titre = "PrimoAnnonce - Réglages du profil"; ?>
+<?php $this->titre = "AdPetite - Réglages du profil"; ?>
 
 <?php $this->layout = "LayoutFront.php"; ?>
 

@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
                     <div class="widget">
-                        <h3 class="footer-logo"><img src="Assets/img/logo.png" alt=""></h3>
+                        <h3 class="footer-logo"><img src="../Assets/img/logo.png" alt=""></h3>
                         <div class="textwidget">
                             <p>
-                                PrimoAnnonces est une plateforme Web dynamique de diffusion de petites annonces.
+                                AdPetite est une plateforme Web dynamique de diffusion de petites annonces.
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="site-info float-left">
-                        <p>All copyrights reserved &copy; <script>document.write(new Date().getFullYear())</script> - Designed by <a href="https://primoannonces.com/" rel="nofollow">PrimoAnnonces</a></p>
+                        <p>All copyrights reserved &copy; <script>document.write(new Date().getFullYear())</script> - Designed by <a href="https://adpetite.com/" rel="nofollow">AdPetite</a></p>
                     </div>
                     <div class="float-right">
                         <a href="Utilisateur/LoginAdmin" target="_blank" aria-haspopup="true" aria-expanded="false">

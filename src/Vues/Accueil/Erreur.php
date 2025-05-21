@@ -1,4 +1,4 @@
-<?php $this->titre = "PrimoAnnonce - Erreur"; ?>
+<?php $this->titre = "AdPetite - Erreur"; ?>
 
 <?php $this->layout = "LayoutFront.php"; ?>
 

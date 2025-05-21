@@ -5,7 +5,7 @@ require_once 'Framework/Modele.php';
 /**
  * Services liés aux genres musicaux
  *
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Genre extends Modele
 {

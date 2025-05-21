@@ -5,7 +5,7 @@ require_once 'Session.php';
 /**
  * Classe modélisant une requête HTTP entrante.
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Requete
 {

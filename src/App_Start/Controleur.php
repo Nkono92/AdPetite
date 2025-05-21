@@ -8,7 +8,7 @@ require_once 'Vue.php';
  * Classe abstraite contrôleur. 
  * Fournit des services communs aux classes contrôleurs dérivées.
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 abstract class Controleur
 {

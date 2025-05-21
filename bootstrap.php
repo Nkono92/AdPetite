@@ -21,7 +21,7 @@ $dbParams = array(
     'host'     => 'localhost', // nom ou adresse de la machine hôte
     'user'     => 'script_php',      // identifiant de l'utilisateur
     'password' => 'zh6tjPp6T56N4dbF@',// mot de passe de l'utilisateur
-    'dbname'   => 'primoannoncesdb',  // nom de la base de données
+    'dbname'   => 'adpetitedb',  // nom de la base de données
     'charset'  => 'utf8'  // jeu de caractères pour requêtes et résultats
 );
 

@@ -7,7 +7,7 @@ require_once 'Modele/Album.php';
 /**
  * Contrôleur des actions de navigation sur le site
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class ControleurNavigation extends ControleurPersonnalise
 {

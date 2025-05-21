@@ -9,7 +9,7 @@ require_once 'Vue.php';
  * Inspirée du framework PHP de Nathan Davison
  * (https://github.com/ndavison/Nathan-MVC)
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Routeur
 {

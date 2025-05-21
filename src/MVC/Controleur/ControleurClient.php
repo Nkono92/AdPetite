@@ -6,7 +6,7 @@ require_once 'Modele/Client.php';
 /**
  * Contrôleur des actions liées au client
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class ControleurClient extends ControleurSecurise
 {

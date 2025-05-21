@@ -18,7 +18,7 @@ require_once 'App_Code/Constantes.php';
 /**
  * Contrôleur de la page d'accueil
  *
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class ControleurAccueil extends ControleurPersonnalise {
 

@@ -1,4 +1,4 @@
-<?php $this->titre = "PrimoAnnonce - A propos de nous"; ?>
+<?php $this->titre = "AdPetite - A propos de nous"; ?>
 
 <?php $this->layout = "LayoutFront.php"; ?>
 

@@ -6,7 +6,7 @@ require_once 'Modele/Panier.php';
 /**
  * Contrôleur des actions liées au panier
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class ControleurPanier extends ControleurSecurise
 {

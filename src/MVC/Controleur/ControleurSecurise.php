@@ -5,7 +5,7 @@ require_once 'ControleurPersonnalise.php';
 /**
  * Contrôleur abstrait pour les actions soumises à authentification du client
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 abstract class ControleurSecurise extends ControleurPersonnalise
 {

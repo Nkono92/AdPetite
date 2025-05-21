@@ -5,7 +5,7 @@
  * Inspirée du SimpleFramework de Frédéric Guillot
  * (https://github.com/fguillot/simpleFramework)
  *
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Configuration
 {

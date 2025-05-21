@@ -1,4 +1,4 @@
-<?php $this->titre = "PrimoAnnonce - Plateforme d'annonces classifiées"; ?>
+<?php $this->titre = "AdPetite - Plateforme d'annonces classifiées"; ?>
 
 <?php $this->layout = "LayoutFront.php"; ?>
 

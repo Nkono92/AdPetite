@@ -7,7 +7,7 @@ require_once 'Configuration.php';
  * Centralise les services d'accès à une base de données.
  * Utilise l'API PDO de PHP.
  *
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 abstract class Modele
 {

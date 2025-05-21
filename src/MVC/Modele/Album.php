@@ -5,7 +5,7 @@ require_once 'Framework/Modele.php';
 /**
  * Services liés aux albums
  * 
- * @author LEUMASSI FANSI Jean-Léopold & DONGMO KEMETIO Dalton
+ * @author NKONO EFONTSE Amos
  */
 class Album extends Modele
 {
