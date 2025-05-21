@@ -1,0 +1,382 @@
+.dataTables_wrapper {
+    clear: both
+}
+
+table.dataTable {
+    border-collapse: collapse!important
+}
+
+.dataTables_filter {
+    text-align: center!important
+}
+
+@media (min-width:768px) {
+    .dataTables_filter {
+        float: right;
+        text-align: right!important
+    }
+}
+
+.dataTables_filter label>em {
+    color: inherit
+}
+
+.dataTables_filter input {
+    border: 1px solid hsla(0, 0%, 62.7%, .25);
+    margin-left: 10px;
+    padding: .25rem .5rem;
+    color: inherit
+}
+
+.dataTables_length {
+    text-align: center
+}
+
+@media (min-width:768px) {
+    .dataTables_length {
+        float: left
+    }
+}
+
+.dataTables_length select {
+    border: 1px solid hsla(0, 0%, 62.7%, .25);
+    margin-right: 10px;
+    padding: .25rem .5rem;
+    color: inherit;
+    width: 80px!important;
+    height: 40px !important;
+}
+
+.dt-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem
+}
+
+@media (min-width:768px) {
+    .dt-buttons {
+        margin-bottom: 0;
+        justify-content: start;
+        float: left
+    }
+}
+
+.dataTables_info {
+    text-align: center;
+    padding-top: .75rem
+}
+
+@media (min-width:768px) {
+    .dataTables_info {
+        float: left
+    }
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    display: flex;
+    justify-content: center
+}
+
+@media (min-width:992px) {
+    .dataTables_wrapper .dataTables_paginate {
+        justify-content: flex-end
+    }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button>a {
+    box-shadow: 0 0 0 #000!important
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled>a {
+    color: #dde6e9
+}
+
+table.dataTable td.focus,
+table.dataTable th.focus {
+    outline: 3px solid #5d9cec;
+    outline-offset: -1px
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>td:first-child:before,
+table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before {
+    color: #3a3f51;
+    border: 0;
+    box-shadow: 0 0 0 #000;
+    background-color: transparent
+}
+
+.table>thead>tr>th {
+    padding: 14px 8px;
+    color: #888
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle
+}
+
+.table>tbody>tr>td>.media img {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto
+}
+
+.table .checkbox {
+    margin: 0 auto;
+    width: 20px
+}
+
+.table .progress {
+    margin-bottom: 0
+}
+
+.table .radial-bar {
+    margin: 0 auto
+}
+
+.jqstooltip {
+    box-sizing: content-box
+}
+
+#table-ext-1 th:first-child {
+    width: 3%
+}
+
+#table-ext-1 th:nth-child(2),
+#table-ext-1 th:nth-child(7),
+#table-ext-1 th:nth-child(9),
+#table-ext-2 th:first-child {
+    width: 5%
+}
+
+#table-ext-2 th:nth-child(3) {
+    width: 10%
+}
+
+.table-responsive {
+    overflow-y: hidden
+}
+
+.table>thead>tr>th {
+    border-bottom-width: 0
+}
+
+.table>tbody+tbody {
+    border-bottom-width: 1px
+}
+
+.table .form-control {
+    max-width: 100%
+}
+
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border-bottom-width: 1px
+}
+
+.card .table {
+    margin-bottom: 0
+}
+
+.card .table>thead>tr>th {
+    border-top: 0
+}
+
+.d-table-fixed {
+    table-layout: fixed
+}
+
+.flot-chart .legend>table tr td {
+    padding: 3px
+}
+
+.flot-chart .legend>table tr td:first-child {
+    padding-left: 3px
+}
+
+.flot-chart .legend>table tr td:last-child {
+    padding-right: 3px
+}
+
+.flot-chart .legend>table tr+tr td {
+    padding-top: 0
+}
+
+
+.datepicker table tr td.selected,
+.datepicker table tr td.selected.disabled,
+.datepicker table tr td.selected.disabled:hover,
+.datepicker table tr td.selected:hover,
+.datepicker table tr td.today,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today:hover,
+.datepicker table tr td span.active,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active:hover {
+    background-image: none
+}
+
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled.disabled,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active.disabled:hover.disabled,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.disabled:hover:hover,
+.datepicker table tr td span.active.disabled:hover[disabled],
+.datepicker table tr td span.active.disabled[disabled],
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active:hover.disabled,
+.datepicker table tr td span.active:hover:active,
+.datepicker table tr td span.active:hover:hover,
+.datepicker table tr td span.active:hover[disabled],
+.datepicker table tr td span.active[disabled] {
+    background-color: #5d9cec
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover {
+    text-shadow: none
+}
+
+.datepicker tfoot tr th:hover,
+.datepicker thead tr:first-child th:hover {
+    background-color: #e4eaec
+}
+
+.datepicker-inline {
+    border: .125rem solid #e4eaec
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover {
+    background-color: #5d9cec!important;
+    background-image: none;
+    box-shadow: none
+}
+
+
+
+.bootgrid-table th>.column-header-anchor {
+    color: inherit
+}
+
+.bootgrid-table th:active,
+.bootgrid-table th:hover {
+    background-color: rgba(221, 230, 233, .12)
+}
+
+.bootgrid-table td.loading,
+.bootgrid-table td.no-results {
+    background-color: transparent;
+    color: inherit
+}
+
+
+.bootgrid-header .search {
+    width: 100%;
+    max-width: 140px
+}
+
+@media (min-width:768px) {
+    .bootgrid-header .search {
+        max-width: 240px
+    }
+}
+
+.bootgrid-header .search .input-group-addon {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem
+}
+
+.bootgrid-header .search.form-group {
+    float: left
+}
+
+.bootgrid-header .dropdown {
+    color: inherit
+}
+
+.bootgrid-header .dropdown .dropdown-menu {
+    transform: translateZ(0)!important;
+    top: 10%!important;
+    right: 0!important;
+    left: auto!important
+}
+
+.bootgrid-header .dropdown .dropdown-item:hover {
+    background-color: #5d9cec!important;
+    color: #fff!important
+}
+
+.bootgrid-header .dropdown .dropdown-item>a {
+    color: inherit
+}
+
+.bootgrid-header .dropdown .active>.dropdown-item {
+    color: #fff
+}
+
+.bootgrid-table th>.column-header-anchor {
+    color: inherit
+}
+
+.bootgrid-table th:active,
+.bootgrid-table th:hover {
+    background-color: rgba(221, 230, 233, .12)
+}
+
+.bootgrid-table td.loading,
+.bootgrid-table td.no-results {
+    background-color: transparent;
+    color: inherit
+}
+
+.bootgrid-footer>.row {
+    align-items: center
+}
+
+.bootgrid-footer .pagination {
+    justify-content: center
+}
+
+.bootgrid-footer .infoBar {
+    margin-top: 1rem;
+    text-align: center
+}
+
+@media (min-width:768px) {
+    .bootgrid-footer .pagination {
+        justify-content: start
+    }
+    .bootgrid-footer .infoBar {
+        margin-top: 0;
+        text-align: right
+    }
+}
+
+.bootgrid .table>tbody>tr.active>td,
+.bootgrid .table>tbody>tr.active>th,
+.bootgrid .table>tbody>tr>td.active,
+.bootgrid .table>tbody>tr>th.active,
+.bootgrid .table>tfoot>tr.active>td,
+.bootgrid .table>tfoot>tr.active>th,
+.bootgrid .table>tfoot>tr>td.active,
+.bootgrid .table>tfoot>tr>th.active,
+.bootgrid .table>thead>tr.active>td,
+.bootgrid .table>thead>tr.active>th,
+.bootgrid .table>thead>tr>td.active,
+.bootgrid .table>thead>tr>th.active {
+    background-color: #e4eaec
+}

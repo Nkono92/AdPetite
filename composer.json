@@ -1,0 +1,10 @@
+{
+    "require": {
+        "doctrine/orm": "^2.7",
+        "doctrine/data-fixtures": "^1.4",
+        "paypal/paypal-checkout-sdk": "1.0.1"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}
